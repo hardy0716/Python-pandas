@@ -70,7 +70,7 @@ arr = [
     [4,5,6],
     [7,8,9]
 ]
-数据=pd.DataFrame(arr,columns=['x','y','z'],index=['a','b','c']).
+数据=pd.DataFrame(arr,columns=['x','y','z'],index=['a','b','c'])
 
 数据=pd.DataFrame(arr,columns=list('xyz'),index=list('abc')) #见Python基础篇 PPT笔记P42页
 print(数据.apply(np.square))

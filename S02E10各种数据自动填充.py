@@ -70,7 +70,7 @@ def 累加月(d,md):
         m = m % 12
     return 日期模块.date(d.year + yd,m,d.day)
 
-路径 = 'D:/softwares/Python/python_work/SXH/SXH_Pandas/pandas教程/课件010/自动填充.CSV'
+路径 = 'D:/softwares/Python/python_work/SXH/SXH_Pandas/pandas教程/课件010/自动填充.xlsx'
 起始日期 = 日期模块.date(2022,4,23)
 读取数据 = pd.read_excel(路径,skiprows=8,usecols="F:I",index_col=None,dtype={'序号':str,'性别':str,'日期':str})
 
