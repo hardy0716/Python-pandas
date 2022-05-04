@@ -1,5 +1,4 @@
 # Python-pandas
-孙兴华 py_pandas
 
 # 数据类型与新建文件
 数据类型	             说明	                        新建方法
